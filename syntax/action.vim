@@ -26,6 +26,9 @@ syn case ignore
 " - https://vimhelp.org/syntax.txt.html#%3Asyn-define
 syn keyword actStatement array byte card char define include int
 syn keyword actStatement mod module pointer set to type
+hi link actCommand            Keyword
+hi link actCommandArg         Constant
+
 
 " Conditionals
 syn keyword actConditional if fi else elseif
@@ -35,32 +38,37 @@ syn keyword actRepeat do exit for od return step then until while
 " Functions
 syn keyword actFunction func proc
 
+
+
+hi link actBatchConditional   Conditional
+hi link actBatchOperator      Operator
+hi link actBatchRepeat        Repeat
+hi link actBatchFunction      Function
+
+
 " Comments
 " - this next line prevents the comment delimiter from being highlighted
 "syn match actComment		   ";.*"hs=s+1 contains=actTodo
 " - but this way is mo bettah
-syn match actComment		   ";.*" contains=actTodo
 syn keyword actTodo	contained todo fixme xxx warning danger note notice bug
+hi link actTodo               Todo
+
+syn match actComment		   ";.*" contains=actTodo
+hi link actComment	         Comment
+
+
 syn match actLabel 	      ":\w*"
+hi link actLabel	            Label
 syn match actCommandArg  	"\/\w"
+
 
 syn match actPositionalParam "%\d"
 syn match actSpecialChar ">>"
 syn match actSpecialChar "<<"
 syn match actSpecialChar "|"
 syn match actSpecialChar "-"
+hi link actSpecialChar        Special
 
 " The default methods for highlighting.  Can be overridden later
-hi link actCommand            Keyword
-hi link actCommandArg         Constant
-hi link actLabel	            Label
-hi link actComment	         Comment
-hi link actTodo               Debug
-hi link actSpecialChar        Special
-hi link actBatchConditional   Conditional
-hi link actBatchOperator      Operator
-hi link actBatchRepeat        Repeat
-hi link actBatchFunction      Function
-
 let b:current_syntax = "action"
 
