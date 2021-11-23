@@ -7,8 +7,12 @@ computers, such as Altirra, atari800, or Atari800MacX.
 What syntax highlighting plugins are available in this repo?
 
 * Action!
-* FastBasic
 * SpartaDOS X
+
+What syntax highlighting plugins are not available in this repo yet, but may
+be at some point in the future?
+
+* FastBasic
 * TurboBasicXL
 
 ## Action! ##
