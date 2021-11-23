@@ -4,6 +4,9 @@ This is a collection of VIM syntax highlighting plugins for editing files for
 use on Atari 8-bit computers, or emulation programs that emulate Atari 8-bit
 computers, such as Altirra, atari800, or Atari800MacX.
 
+Licensed under the Apache License, version 2; see the file `LICENSE` in the
+top level of this repository for more info.
+
 What syntax highlighting plugins are available in this repo?
 
 * Action!
