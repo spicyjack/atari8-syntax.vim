@@ -1,11 +1,13 @@
 # Atari 8-Bit VIM Syntax Files #
 
-This is a collection of VIM syntax highlighting plugins for editing files for 
-use on Atari 8-bit computers, or emulation programs that emulate Atari 8-bit
-computers, such as Altirra, atari800, or Atari800MacX.
+This is a collection of VIM syntax highlighting plugins for editing files that
+run on Atari 8-bit computers, or emulation programs that emulate Atari 8-bit
+computers, such as Altirra, atari800, or Atari800MacX.  You would use these
+plugins with VIM to edit files on your "modern" computer, then move/copy those
+files to your hardware/virtual 8-bit Atari in order to do things with them.
 
-Licensed under the Apache License, version 2; see the file `LICENSE` in the
-top level of this repository for more info.
+This VIM plugin is licensed under the Apache License, version 2; see the file
+`LICENSE` in the top level of this repository for more info.
 
 What syntax highlighting plugins are available in this repo?
 
