@@ -83,5 +83,5 @@ syn match sdxSpecialChar "-"
 " Highlighting
 hi link sdxSpecialChar        Special
 
-let b:current_syntax = "spartadosx"
+let b:current_syntax = "sdxbat"
 
